@@ -23,7 +23,7 @@ public class Practica3_Camioneta extends Practica3_Privado {
     }
     
     String pasear(){
-        return dueño + "usa su camioneta de cabina " + cabina + " para pasear";
+        return dueño + " usa su camioneta de cabina " + cabina + " para pasear";
     }
 
     public String isCuatroporcuatro() {

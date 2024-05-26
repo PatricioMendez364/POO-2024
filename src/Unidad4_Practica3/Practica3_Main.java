@@ -51,7 +51,55 @@ public class Practica3_Main {
         System.out.println(administrativo.hacerPapeleo());
         System.out.println(administrativo.administrar());
         
+        System.out.println();
+        
         //Segunda parte
+        
+        Practica3_Vehiculo vehiculo = new Practica3_Vehiculo("Ford", "K");
+        System.out.println(vehiculo.acelerar());
+        System.out.println(vehiculo.frenar());
+        
+        System.out.println();
+        
+        Practica3_Privado privado = new Practica3_Privado("Luis", 5, "Chevrolet", "Cruze");
+        System.out.println(privado.acelerar());
+        System.out.println(privado.frenar());
+        System.out.println(privado.llevarCosas());
+        System.out.println(privado.llevarGente());
+        
+        System.out.println();
+        
+        Practica3_Auto auto = new Practica3_Auto("Gris", "Manueales", "Guadalupe", 4, "Ford", "K");
+        System.out.println(auto.acelerar());
+        System.out.println(auto.frenar());
+        System.out.println(auto.iralaEscuela());
+        System.out.println(auto.iralMandado());
+                
+        System.out.println();
+        
+        Practica3_Camioneta camioneta = new Practica3_Camioneta("4x4", "Doble", "Ruben", 4, "Toyota", "Tundra");
+        System.out.println(camioneta.acelerar());
+        System.out.println(camioneta.frenar());
+        System.out.println(camioneta.cargarMercancia());
+        System.out.println(camioneta.pasear());
+        
+        System.out.println();
+        
+        Practica3_Motocicleta motocicleta = new Practica3_Motocicleta("Manuales", "Deportiva", "Pedro", 2, "Yamaha", "YZF");
+        System.out.println(motocicleta.acelerar());
+        System.out.println(motocicleta.frenar());
+        System.out.println(motocicleta.hacerCaballito());
+        System.out.println(motocicleta.rebasarAutos());
+        
+        System.out.println();
+        
+        Practica3_Publico publico = new Practica3_Publico("Terrestre", "6 A.M", "Mercedes Benz", "Gran viaje");
+        System.out.println(publico.acelerar());
+        System.out.println(publico.frenar());
+        System.out.println(publico.recogerPasaje());
+        System.out.println(publico.cobrarPasaje());
+        
+        System.out.println();
         
         
         
