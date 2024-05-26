@@ -7,39 +7,39 @@
 package Unidad4_Practica3;
 
 
-public class Practica3_Microbus extends Practica3_Publico {
+public class Practica3_Metro extends Practica3_Publico {
     
-    String ruta;
-    double costo;
+    String ciudad;
+    String linea;
 
-    public Practica3_Microbus(String ruta, double costo, String tipoderuta, String iniciodejornada, String marca, String modelo) {
+    public Practica3_Metro(String ciudad, String linea, String tipoderuta, String iniciodejornada, String marca, String modelo) {
         super(tipoderuta, iniciodejornada, marca, modelo);
-        this.ruta = ruta;
-        this.costo = costo;
+        this.ciudad = ciudad;
+        this.linea = linea;
     }
     
-    public String darlaParada(){
-        return "El chofer se para para bajar pasaje";
+    public String pararenEstacion(){
+        return "El metro de " + ciudad + " para en la estacion";
     }
     
-    public String completarRuta(){
-        return "La ruta " + ruta + " es completada";
+    public String cerrarPuertas(){
+        return "El metro de la linea " + linea + " se prepara para avanzar y cierra sus puertas";
     }
 
-    public String getRuta() {
-        return ruta;
+    public String getCiudad() {
+        return ciudad;
     }
 
-    public void setRuta(String ruta) {
-        this.ruta = ruta;
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
     }
 
-    public double getCosto() {
-        return costo;
+    public String getLinea() {
+        return linea;
     }
 
-    public void setCosto(double costo) {
-        this.costo = costo;
+    public void setLinea(String linea) {
+        this.linea = linea;
     }
 
     @Override
@@ -84,7 +84,7 @@ public class Practica3_Microbus extends Practica3_Publico {
 
     @Override
     public String toString() {
-        return "Practica3_Microbus{" + "ruta=" + ruta + ", costo=" + costo + '}';
+        return "Practica3_Metro{" + "ciudad=" + ciudad + ", linea=" + linea + '}';
     }
     
     
