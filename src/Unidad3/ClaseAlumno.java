@@ -31,7 +31,7 @@ public class ClaseAlumno {
 
     @Override
     public String toString() {
-        return "ClaseAlumno{" + "nombre=" + nombre + ", calif=" + calif + '}';
+        return "\n Alumno... nombre: " + nombre + " calificacion: " + calif + "\n" ;
     }
     
 }
