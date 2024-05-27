@@ -101,8 +101,35 @@ public class Practica3_Main {
         
         System.out.println();
         
+        Practica3_Microbus microbus = new Practica3_Microbus("Centro", 6.50, "Terrestre", "6 A.M.", "Mercedenz Benz", "Boxer");
+        System.out.println(microbus.acelerar());
+        System.out.println(microbus.frenar());
+        System.out.println(publico.recogerPasaje());
+        System.out.println(publico.cobrarPasaje());
+        System.out.println(microbus.darlaParada());
+        System.out.println(microbus.completarRuta());
         
+        System.out.println();
         
+        Practica3_Camion camion = new Practica3_Camion("Silao", "Primera Plus", "Terrestre", "12 A.M.", "Dina", "Buller");
+        System.out.println(camion.acelerar());
+        System.out.println(camion.frenar());
+        System.out.println(camion.recogerPasaje());
+        System.out.println(camion.cobrarPasaje());
+        System.out.println(camion.recogerBoletos());
+        System.out.println(camion.viajar());
+        
+        System.out.println();
+        
+        Practica3_Metro metro = new Practica3_Metro("CDMX", "Linea 3", "Subterranea", "5 A.M.", "Metro", "NM-73B");
+        System.out.println(metro.acelerar());
+        System.out.println(metro.frenar());
+        System.out.println(metro.recogerPasaje());
+        System.out.println(metro.cobrarPasaje());
+        System.out.println(metro.cerrarPuertas());
+        System.out.println(metro.pararenEstacion());
+        
+        System.out.println();
     }
     
 }
